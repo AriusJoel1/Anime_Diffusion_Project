@@ -89,6 +89,7 @@ def main() -> None:
         print(f"GPU: {torch.cuda.get_device_name(0)}")
         torch.backends.cuda.matmul.allow_tf32 = True
 
+
     dataset = AnimeFacesDataset(args.data_dir, image_size=64)
     print(f"Imágenes válidas encontradas: {len(dataset):,}")
     loader = DataLoader(
