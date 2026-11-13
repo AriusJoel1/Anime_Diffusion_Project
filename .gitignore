@@ -3,7 +3,3 @@ __pycache__/
 .venv/
 venv/
 data/
-checkpoints/*.pt
-results/
-samples/
-training_log.csv
